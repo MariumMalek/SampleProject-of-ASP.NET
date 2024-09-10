@@ -1,10 +1,15 @@
-# SampleProject
+# Sample ASP.NET Core Web API Project
 
-This project demonstrates the creation of a Web API using ASP.NET Core and MSSQL. It includes CRUD operations for Employee and Department entities, with proper handling of relationships between them.
+This project demonstrates the use of ASP.NET Core to build a Web API with MSSQL. It provides CRUD operations for `Employee` and `Department` entities, showcasing proper handling of one-to-many relationships.
 
-*Features*
-1.ASP.NET Core Web API
-2.MSSQL Database
-3.CRUD operations for Employees and Departments
-4.One-to-many relationship handling
-5.Swagger for API testing
+## Features
+- ASP.NET Core Web API
+- MSSQL Database integration
+- CRUD operations for Employees and Departments
+- One-to-many relationship support
+- Swagger integration for API testing
+
+## Usage
+
+- Access the API via Swagger at `/swagger`.
+- Perform CRUD operations on `Employee` and `Department` entities.
